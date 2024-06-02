@@ -1,6 +1,6 @@
 # Self-supervised visual representation learning: SimCLR & Deep Clustering
 
-This repository contains an implementation of the DeepCluster algorithm for unsupervised learning of visual features using the CIFAR-10 dataset. The code is organized into modular Python scripts to facilitate understanding and reuse.
+This repository contains implementations of two self-supervised learning approavhes; the SimCLR (Simple Framework for Contrastive Learning of Visual Representations) model for self-supervised learning on the CIFAR-10 dataset. The implementation includes data preparation, model definition, training, and visualization of embeddings using t-SNE and the DeepCluster algorithm for unsupervised learning of visual features using the CIFAR-10 dataset. The code is organized into modular Python scripts to facilitate understanding and reuse.
 
 ## Table of Contents
 
@@ -11,9 +11,6 @@ This repository contains an implementation of the DeepCluster algorithm for unsu
 - [File Descriptions](#file-descriptions)
 - [Contributing](#contributing)
 - [License](#license)
-
-## Directory Structure
-
 
 ## Directory Structure
 
