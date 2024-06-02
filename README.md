@@ -24,11 +24,11 @@ SimCLR/
 - └── `vis.py`: Provides functions for visualizing embeddings using t-SNE.
 
 DeepCluster/
-├── models.py # Model definitions
-├── train.py # Training functions
-├── utils.py # Utility functions
-├── main.py # Main script to run the project
-└── README.md # Project documentation
+- ├── `models.py`: Model definitions
+- ├── `train.py`: Training functions
+- ├── `utils.py`: Utility functions
+- └── `main.py`: Main script to run the project
 
-- `README.md`: Provides an overview of the project, including installation, usage, and details about the implementation.
-- `requirements.txt`: Lists the dependencies and packages required to run the project.
+`README.md`: Provides an overview of the project, including installation, usage, and details about the implementation.
+
+`requirements.txt`: Lists the dependencies and packages required to run the project.
