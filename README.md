@@ -14,12 +14,21 @@ This repository contains implementations of two self-supervised learning approav
 
 ## Directory Structure
 
-- `data.py`: Handles data loading and transformations for the CIFAR-10 dataset.
-- `losses.py`: Contains the implementation of the contrastive loss function (NT-Xent loss) used in SimCLR.
-- `main.py`: The main script to run the training process.
-- `models.py`: Defines the SimCLR model architecture, including the encoder and projection head.
+SimCLR/
+- ├── `data.py`: Handles data loading and transformations for the CIFAR-10 dataset.
+- ├── `losses.py`: Contains the implementation of the contrastive loss function (NT-Xent loss) used in SimCLR.
+- ├── `main.py`: The main script to run the training process.
+- ├── `models.py`: Defines the SimCLR model architecture, including the encoder and projection head.
+- ├── `train.py`: Contains the training loop for the SimCLR model.
+- ├── `utils.py`: Utility functions used throughout the project.
+- └── `vis.py`: Provides functions for visualizing embeddings using t-SNE.
+
+DeepCluster/
+├── models.py # Model definitions
+├── train.py # Training functions
+├── utils.py # Utility functions
+├── main.py # Main script to run the project
+└── README.md # Project documentation
+
 - `README.md`: Provides an overview of the project, including installation, usage, and details about the implementation.
 - `requirements.txt`: Lists the dependencies and packages required to run the project.
-- `training.py`: Contains the training loop for the SimCLR model.
-- `utils.py`: Utility functions used throughout the project.
-- `visualization.py`: Provides functions for visualizing embeddings using t-SNE.
