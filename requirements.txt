@@ -1,0 +1,7 @@
+torch
+torchvision
+torchlars
+tqdm
+tensorboard
+matplotlib
+scikit-learn
